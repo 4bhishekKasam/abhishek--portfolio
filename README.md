@@ -2,7 +2,6 @@
 
 ##Live site:  
 
-https://mashablair.github.io/portfolio-parallax/
 
 
 ##About:
