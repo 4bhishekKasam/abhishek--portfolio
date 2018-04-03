@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Abhishek Konnur</title>
+<title>Abhishek Konnur portfolio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> -->
 <link rel="stylesheet" href="styles.css">
@@ -47,7 +47,7 @@ body, html {
 /* First image (Logo. Full height) */
 .bgimg-1 {
     opacity: 1;
-    background-image: url('red.jpg');
+    background-image: url('red.png');
     min-height: 100%;
 }
 
@@ -137,7 +137,7 @@ button {
       <a href="#about">ABOUT</a>
       <a href="#portfolio">PORTFOLIO</a>
       <a href="#contact">CONTACT</a>
-      <a href="#tricks">TRICKS</a>
+      <!-- <a href="#tricks">TRICKS</a> -->
     </li>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
     <li>
@@ -155,7 +155,7 @@ button {
   <a href="#about" onclick="w3_close()">ABOUT</a>
   <a href="#work" onclick="w3_close()">WORK</a>
   <a href="#contact" onclick="w3_close()">CONTACT</a>
-  <a href="#contact" onclick="w3_close()">TRICKS</a>
+ <!-- <a href="#contact" onclick="w3_close()">TRICKS</a>  -->
 </nav>
 
 
@@ -188,19 +188,16 @@ button {
       <p style='font-size: 1.1em'>Overall I have a 1+ year of IT experience and hands on experience in MEAN Stack Web application *Skilled in building web applications using Nodejs, Angular 2/4, Expressjs, Mongodb. </p>
     </div>
   </div>
-  <!-- <p class="w3-large w3-center w3-padding-16">What I am good at:</p>
-  <p class="w3-wide">Front-End Web Development</p>
-  <div class="w3-progress-container">
-    <div class="w3-progressbar" style="width:90%"></div>
+   <p class="w3-large w3-center w3-padding-16">What I am good at:</p>
+  <p class="w3-wide">Web Designing</p>
+   <div class="w3-progress-container">
+    <div class="w3-progressbar w3-wide" style="width:85%;color:white"><center> HTML5, CSS3, Bootstrap, UiKit </center></div>
   </div>
-  <p class="w3-wide">WordPress</p>
+  <p class="w3-wide">MEAN Stack</p>
   <div class="w3-progress-container">
-    <div class="w3-progressbar" style="width:85%"></div>
+    <div class="w3-progressbar w3-wide" style="width:65%;color:white"><center>Angular 2, Nodejs, Expressjs, Mongodb </center></div>
   </div>
-  <p class="w3-wide">Visual Design</p>
-  <div class="w3-progress-container">
-    <div class="w3-progressbar" style="width:75%"></div>
-  </div> -->
+  </div> 
  
 </div>
 
@@ -211,10 +208,11 @@ button {
   </div>
 </div>
 
+
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64">
   <h3 class="w3-center">MY WORK</h3>
-  <!-- <div style="text-align: center;"><a href="https://mashablair.github.io/" class="button w3-btn w3-light-grey w3-padding-xlarge" style="margin-top:30px; margin-bottom: 30px;">SHOW PORTFOLIO</a></div> -->
+ <div style="text-align: center;"><a href="https://github.com/4bhishekKasam" class="button w3-btn w3-light-grey w3-padding-xlarge" style="margin-top:30px; margin-bottom: 30px;">MINI-PROJECTS</a></div> 
   <p class="w3-center"><em>These images are clicked by me.<br> Click on the images to make them bigger.</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
@@ -306,7 +304,7 @@ button {
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
       <!-- Add Google Maps -->
-      <div id="googleMap" class="w3-round-large"></div>
+      <!-- <div id="googleMap" class="w3-round-large"></div> -->
     </div>
     <div class="w3-col m8 w3-container w3-section">
       <div class="w3-large w3-margin-bottom">
@@ -315,7 +313,7 @@ button {
         <i class="fa fa-envelope w3-hover-text-black" style="width:30px"> </i> Email: konnurabhishek@gmail.com<br>
       </div>
         <p>Let's have a cup of <i class="fa fa-coffee"></i>. Or leave me a note:</p>
-        <form action="form.asp" target="_blank">
+        <!-- <form action="form.asp" target="_blank">
           <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
             <div class="w3-half">
               <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
@@ -328,7 +326,7 @@ button {
           <button class="w3-btn w3-grey w3-right w3-padding w3-section" type="submit">
             <i class="fa fa-paper-plane"></i> SEND MESSAGE
           </button>
-        </form>
+        </form> -->
       </div>
   </div>
 
@@ -392,7 +390,8 @@ button {
 <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA2oDW5ueo19JA1okdRwp5q24_6cWqSDGo"></script>
 <script>
 // <!-- Google Map Location -->
-var myCenter = new google.maps.LatLng(34.4208, -119.6982); // this is Santa Barbara, CA location on the map
+//var myCenter = new google.maps.LatLng(34.4208, -119.6982); // this is Santa Barbara, CA location on the map
+var myCenter = google.maps.LatLng(18.560745, 73.943047)
 
 function initialize() {
 var mapProp = {
