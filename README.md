@@ -1,9 +1,5 @@
 # portfolio-parallax
 
-##Live site:  
-
-
-
 ##About:
 
 Portfolio built with HTML, CSS, and JavaScript from scratch using the w3schools CSS library.  Main focus here is the parallax effect achieved with CSS and vivid images that I love. 
